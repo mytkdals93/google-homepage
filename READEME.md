@@ -1,5 +1,6 @@
 # The Odin Project 
 ## Project : Google Homepage
 
-- [x] header done
-- [x] main done
+- [x] header
+- [x] main
+- [x] footer

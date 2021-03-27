@@ -69,17 +69,28 @@ main form input{
     border:1px solid #dfe1e5;
     font-size: 1em;
 }
-main form :hover{
+main form input:hover{
     box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
     border-color: rgba(223,225,229,0);
 }
-main form :focus{
+main form input:focus{
   outline: none;
 }
 main form .button-container{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
+}
+main form .button-container button{
+    color:#5F6368;
+    padding: 10px 16px;
+    margin-right:10px;
+    border: 1px solid #f8f8f8;
+}
+main form .button-container button:hover{
+    background-color: #f8f8f8;
+    border: 1px solid #c6c6c6;
+    color:#222;
 }
 
 footer {
@@ -89,9 +100,18 @@ footer {
     height:40px;
     color: rgb(34,34,34);
     background-color: #f2f2f2;
+    opacity: 0.75;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+footer div {
+    padding: 0 20px;
 }
 footer a{
     text-decoration: none;
     color:inherit;
     font-family: arial,sans-serif;
+    padding: 0 12px;
 }
